@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+    padding: 0 12px;
+}
+body{
+    min-height: 2000px;
+}
+/* header start */
+
+  .header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .header__nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__list{
+    display: flex;
+    column-gap: 30px;
+  }
+.header__log{
+    font-size: 36px;
+    color: #fff;
+}
+.header__link{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header__fantasy{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    object-position: top;
+}
+.header__cloud{
+    position: absolute;
+}
+.cloud1{
+    top: 15%;
+    left: 5%;
+}
+.cloud2{
+    top: 15%;
+    left: 43%;
+}
+.cloud3{
+    top: 15%;
+    left: 70%;
+}
+.header__boat{
+    top: 77%;
+    left: 40%;
+    position: absolute;
+    transform: tr;
+}
+.prallax__title{
+    font-family: sans-serif;
+}
+.header__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+    flex-grow: 1;
+}
+.parallax__title{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.parallax{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.parallax__box{
+    position: relative;
+}
+.parallax__box img{
+    position: absolute;
+}
+.parallax__banner{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.leyr1{
+    width: 25%;
+    margin-top: 5%;
+    left: 10%;
+}
+.leyr2{
+    width: 25%;
+    right: 15%;
+}
+.timer__content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.timer__card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   border-radius: 10px;
+    padding: 50px;
+    background: rgb(38, 36, 82);
+}
+.timer__card-num{
+    color: #fff;
+    font-size: 20px;
+}
+.timer__card-text{
+    color: #fff;
+    font-size: 15px;
+}
+.timer__card-btn{
+    width: 100px;
+    padding: 10px;
+    margin-left: 20%;
+    border: none;
+    position: relative;
+}
+.timer__card-btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30%;
+   width: 20%;
+   height: 30%;
+   background: blue;
+   border-radius: 0 15px 15px 0;
+}
+/* header end */
